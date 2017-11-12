@@ -5,6 +5,7 @@ import React from 'react';
 import logo from './assets/logo.svg';
 import './style/App.css';
 
+import JediForm from './components/JediForm';
 import JediList from './components/JediList';
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h2>Welcome to React</h2>
       </div>
+      <JediForm />
       <JediList />
     </div>
   );
